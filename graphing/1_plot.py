@@ -1,9 +1,11 @@
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as var
 # %matplotlib_inline #para jupyter notebook
 #Grafica 2 vectores
-plt.plot([1,2,3,4]) #Vector en Y
+var.plot(["Contabilidad","Estadística","Etica","Operaciones"]
+         ,[9,8,10,7],'b-*') #Vector en Y
 #Grafica por defecto el vecto X = 1, 2, 3, 4
-plt.title('Title')
-plt.ylabel('some Y numbers')
-plt.xlabel('some X numbers')
-plt.show()
+var.title('Promedio')
+var.ylabel('Calificación')
+var.xlabel('Asignaturas')
+var.show()
+var.savefig("graph.png")
